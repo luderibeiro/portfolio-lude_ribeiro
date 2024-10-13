@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# storybook
+/.storybook
+
+# jest
+/coverage
+
+# cypress
+/cypress/screens
+
