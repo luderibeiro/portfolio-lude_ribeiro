@@ -23,6 +23,10 @@ const Footer = () => {
                     Estou sempre aberto a novos projetos e oportunidades de
                     trabalho. Entre em contato comigo e vamos conversar sobre
                     como podemos trabalhar juntos.
+                    <br />
+                    <br />
+                    Em caso de interesse, possuo mais projetos privados para
+                    demonstrar mais sobre meu trabalho.
                 </p>
                 <a href="mailto:ludeyuri07@gmail.com">
                     <MagicButton

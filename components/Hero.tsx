@@ -47,6 +47,13 @@ const Hero = () => {
                             Criei este portfólio para mostrar um pouco do meu
                             trabalho e praticar minhas habilidades com Next.Js
                         </p>
+                        <a href="/Lude Ribeiro - Curriculo.pdf" download>
+                            <MagicButton
+                                title="Baixe meu currículo"
+                                icon={<FaLocationArrow />}
+                                position="right"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
