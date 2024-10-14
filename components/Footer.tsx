@@ -1,7 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./ui/MagicButton";
+import MagicButton from "./MagicButton";
 
 const Footer = () => {
     return (
@@ -28,7 +28,7 @@ const Footer = () => {
                     Em caso de interesse, possuo mais projetos privados para
                     demonstrar mais sobre meu trabalho.
                 </p>
-                <a href="mailto:ludeyuri07@gmail.com">
+                <a href="mailto:ludeyuri07@gmail.com" className="z-50">
                     <MagicButton
                         title="Envie um e-mail"
                         icon={<FaLocationArrow />}
