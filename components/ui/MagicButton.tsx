@@ -20,8 +20,14 @@ const MagicButton = ({
             onClick={handleClick}
         >
             <span
-                className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] 
-            bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+                className="absolute inset-0 
+            bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] animate-[spin_2s_linear_infinite] 
+            will-change-transform"
+                style={{
+                    WebkitMaskImage:
+                        "-webkit-radial-gradient(circle, white, black)",
+                    maskImage: "radial-gradient(circle, white, black)",
+                }}
             />
             <span
                 className={`inline-flex h-full w-full cursor-pointer items-center justify-center 

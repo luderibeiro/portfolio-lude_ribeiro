@@ -9,14 +9,14 @@ export const About = () => {
                     className="text-center text-[40px] md:text5xl lg:text-6xl"
                     words="Mais sobre mim"
                 />
-                <div className="flex flex-row w-full py-3 px-5 pr-10 gap-20 align-middle justify-center items-center rounded-md shadow-md shadow-cyan-900">
+                <div className="flex flex-col w-full py-3 px-5 pr-10 gap-20 align-middle justify-center items-center rounded-md shadow-md shadow-cyan-900">
                     <img
                         src="/profile.jpg"
                         width={480}
                         height={480}
                         alt="Foto de perfil"
                     />
-                    <p className="font-light font-sans text-justify text-lg md:text-l lg:text-l md:pb-5 right-0 px-10">
+                    <p className="font-light font-sans text-justify text-md sm:text-sm md:text-sm lg:text-lg pb-5 right-0 px-10">
                         Meu nome é Lude Ribeiro, sou um desenvolvedor web
                         FullStack com foco em tecnologias modernas e práticas de
                         desenvolvimento de software. Atualmente, estou me
