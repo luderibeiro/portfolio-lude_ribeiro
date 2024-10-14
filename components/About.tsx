@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Techs from "./Techs";
 
 export const About = () => {
     return (
@@ -9,15 +10,23 @@ export const About = () => {
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     words="Mais sobre mim"
                 />
-                <div className="flex flex-col md:flex-row w-full py-3 px-5 pr-10 gap-10 md:gap-20 items-center rounded-md shadow-md shadow-cyan-900">
-                    <img
-                        src="/profile.jpg"
-                        width={480}
-                        height={480}
-                        alt="Foto de perfil"
-                        className="w-64 h-64 md:w-96 md:h-96 rounded-lg"
-                    />
-                    <p className="font-light font-sans text-justify text-md sm:text-sm md:text-sm lg:text-lg px-5 md:px-10">
+                <div className="flex flex-col md:flex-row w-full py-3 px-5 gap-5 md:gap-20 items-center rounded-md shadow-md shadow-cyan-900">
+                    <div
+                        id="me"
+                        className="flex flex-col w-full justify-center items-center"
+                    >
+                        <img
+                            src="/profile.jpg"
+                            width={480}
+                            height={480}
+                            alt="Foto de perfil"
+                            className="w-64 h-64 md:w-96 md:h-96 rounded-lg"
+                        />
+                        <data className="max-w-full md:max-w-xs">
+                            <Techs />
+                        </data>
+                    </div>
+                    <p className="font-light font-sans text-justify text-md sm:text-sm md:text-sm lg:text-lg md:pb-10">
                         Olá! Meu nome é Lude Ribeiro, e sou um desenvolvedor
                         FullStack apaixonado por tecnologias modernas e práticas
                         eficientes de desenvolvimento de software. Estou me
